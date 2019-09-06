@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-
 import { Nav, NavItem, NavLink } from 'reactstrap';
+
+import Banner from './banner';
 
 import Logo from '../../images/logo.png';
 import EmergencyCall from '../../images/emergency-call.png';
@@ -14,9 +15,9 @@ class Header extends Component {
             <div className="row">
               <div className="col-12 d-flex flex-wrap justify-content-between align-items-center">
                 <div className="site-branding d-flex align-items-center">
-                  <NavLink href="#">
+                  <a href="#" className="">
                     <img className="d-block" src={Logo} alt="logo" />
-                  </NavLink>
+                  </a>
                 </div>
 
                 <nav className="site-navigation d-flex justify-content-end align-items-center">
@@ -55,6 +56,8 @@ class Header extends Component {
             </div>
           </div>
         </div>
+      
+        <Banner />
       </header>
     );
   }

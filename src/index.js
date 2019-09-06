@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-id-swiper/lib/styles/css/swiper.css';
 import './index.css';
 
 import AppLayout from './layout';
