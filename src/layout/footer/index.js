@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import Logo from '../../images/logo.png';
 
@@ -12,7 +13,7 @@ class Footer extends Component {
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="foot-about">
                   <h2>
-                    <a href="#">
+                    <a href="http://localhost:3000/">
                       <img src={Logo} alt=""></img>
                     </a>
                   </h2>
@@ -32,10 +33,7 @@ class Footer extends Component {
                       aria-hidden="true"
                       style={{ color: '#ff7f7f' }}
                     ></i>{' '}
-                    by{' '}
-                    <a href="#" target="_blank">
-                      kdevsoftware
-                    </a>
+                    by <a href="http://localhost:3000/">kdevsoftware</a>
                   </p>
                 </div>
               </div>
@@ -64,22 +62,19 @@ class Footer extends Component {
 
                   <ul class="p-0 m-0">
                     <li>
-                      <a href="#">Home</a>
+                      <Link to="">Home</Link>
                     </li>
                     <li>
-                      <a href="#">About us</a>
+                      <Link to="about-us">About Us</Link>
                     </li>
                     <li>
-                      <a href="#">Departments</a>
+                      <Link to="services">Services</Link>
                     </li>
                     <li>
-                      <a href="#">Contact</a>
+                      <Link to="news">News</Link>
                     </li>
                     <li>
-                      <a href="#">FAQ</a>
-                    </li>
-                    <li>
-                      <a href="#">Testimonials</a>
+                      <Link to="contact">Contact</Link>
                     </li>
                   </ul>
                 </div>

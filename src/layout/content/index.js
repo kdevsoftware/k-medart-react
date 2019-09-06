@@ -1,10 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import {
-  BrowserRouter as Router,
-  Route,
-  Redirect,
-  withRouter
-} from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 import Home from '../../pages/home';
 import AboutUs from '../../pages/about-us';

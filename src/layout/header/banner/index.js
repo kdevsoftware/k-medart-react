@@ -31,7 +31,7 @@ class Banner extends Component {
                   </div>
 
                   <footer className="entry-footer d-flex flex-wrap align-items-center mt-4">
-                    <a href="#" className="button gradient-bg">
+                    <a  href="http://localhost:3000/" className="button gradient-bg">
                       Read More
                     </a>
                   </footer>
@@ -65,7 +65,7 @@ class Banner extends Component {
                   </div>
 
                   <footer className="entry-footer d-flex flex-wrap align-items-center mt-4">
-                    <a href="#" className="button gradient-bg">
+                    <a  href="http://localhost:3000/" className="button gradient-bg">
                       Read More
                     </a>
                   </footer>
@@ -99,7 +99,7 @@ class Banner extends Component {
                   </div>
 
                   <footer className="entry-footer d-flex flex-wrap align-items-center mt-4">
-                    <a href="#" className="button gradient-bg">
+                    <a  href="http://localhost:3000/" className="button gradient-bg">
                       Read More
                     </a>
                   </footer>

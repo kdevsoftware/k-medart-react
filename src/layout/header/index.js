@@ -16,7 +16,7 @@ class Header extends Component {
             <div className="row">
               <div className="col-12 d-flex flex-wrap justify-content-between align-items-center">
                 <div className="site-branding d-flex align-items-center">
-                  <a href="#" className="">
+                  <a href="http://localhost:3000/" className="">
                     <img className="d-block" src={Logo} alt="logo" />
                   </a>
                 </div>
