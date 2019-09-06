@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { Nav, NavItem, NavLink } from 'reactstrap';
 
 import Banner from './banner';
@@ -23,23 +24,33 @@ class Header extends Component {
                 <nav className="site-navigation d-flex justify-content-end align-items-center">
                   <Nav className="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
                     <NavItem>
-                      <NavLink href="#">Home</NavLink>
+                      <NavLink tag={Link} to="">
+                        Home
+                      </NavLink>
                     </NavItem>
 
                     <NavItem>
-                      <NavLink href="#">About us</NavLink>
+                      <NavLink tag={Link} to="about-us">
+                        About us
+                      </NavLink>
                     </NavItem>
 
                     <NavItem>
-                      <NavLink href="#">Services</NavLink>
+                      <NavLink tag={Link} to="services">
+                        Services
+                      </NavLink>
                     </NavItem>
 
                     <NavItem>
-                      <NavLink href="#">News</NavLink>
+                      <NavLink tag={Link} to="news">
+                        News
+                      </NavLink>
                     </NavItem>
 
                     <NavItem>
-                      <NavLink href="#">Contact</NavLink>
+                      <NavLink tag={Link} to="contact">
+                        Contact
+                      </NavLink>
                     </NavItem>
 
                     <NavItem className="call-btn button gradient-bg mt-3 mt-md-0">
@@ -56,7 +67,7 @@ class Header extends Component {
             </div>
           </div>
         </div>
-      
+
         <Banner />
       </header>
     );

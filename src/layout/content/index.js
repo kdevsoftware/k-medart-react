@@ -1,8 +1,28 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  Redirect,
+  withRouter
+} from 'react-router-dom';
+
+import Home from '../../pages/home';
+import AboutUs from '../../pages/about-us';
+import Services from '../../pages/services';
+import News from '../../pages/news';
+import Contact from '../../pages/contact';
 
 class Content extends Component {
   render() {
-    return <div>Content works!</div>;
+    return (
+      <Fragment>
+        <Route exact path="/" component={Home} />
+        <Route path="/about-us" component={AboutUs} />
+        <Route path="/services" component={Services} />
+        <Route path="/news" component={News} />
+        <Route path="/contact" component={Contact} />
+      </Fragment>
+    );
   }
 }
 
