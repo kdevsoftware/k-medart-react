@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-id-swiper/lib/styles/css/swiper.css';
@@ -10,9 +10,9 @@ import AppLayout from './layout';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <HashRouter>
+  <Router>
     <AppLayout />
-  </HashRouter>,
+  </Router>,
   document.getElementById('root')
 );
 
