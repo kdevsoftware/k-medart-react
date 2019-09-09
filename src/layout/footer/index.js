@@ -6,12 +6,12 @@ import Logo from '../../images/logo.png';
 class Footer extends Component {
   render() {
     return (
-      <footer class="site-footer">
-        <div class="footer-widgets">
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-6 col-lg-4">
-                <div class="foot-about">
+      <footer className="site-footer">
+        <div className="footer-widgets">
+          <div className="container">
+            <div className="row">
+              <div className="col-12 col-md-6 col-lg-4">
+                <div className="foot-about">
                   <h2>
                     <a href="http://localhost:3000/">
                       <img src={Logo} alt=""></img>
@@ -24,12 +24,12 @@ class Footer extends Component {
                     nulla dictum. Ut ac ligula sapien.
                   </p>
 
-                  <p class="copyright">
+                  <p className="copyright">
                     Copyright &copy;
                     {new Date().getFullYear()} All rights reserved | This
                     template is made with{' '}
                     <i
-                      class="fa fa-heart"
+                      className="fa fa-heart"
                       aria-hidden="true"
                       style={{ color: '#ff7f7f' }}
                     ></i>{' '}
@@ -38,11 +38,11 @@ class Footer extends Component {
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
-                <div class="foot-contact">
+              <div className="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
+                <div className="foot-contact">
                   <h2>Contact</h2>
 
-                  <ul class="p-0 m-0">
+                  <ul className="p-0 m-0">
                     <li>
                       <span>Addtress:</span>Mitlton Str. 26-27 London UK
                     </li>
@@ -56,11 +56,11 @@ class Footer extends Component {
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
-                <div class="foot-links">
+              <div className="col-12 col-md-6 col-lg-4 mt-5 mt-md-0">
+                <div className="foot-links">
                   <h2>Usefull Links</h2>
 
-                  <ul class="p-0 m-0">
+                  <ul className="p-0 m-0">
                     <li>
                       <Link to="">Home</Link>
                     </li>

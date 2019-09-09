@@ -9,15 +9,15 @@ class Team extends Component {
   render() {
     return (
       <div>
-        <div class="medical-team">
-          <div class="container">
-            <div class="row">
-              <div class="col-12">
+        <div className="medical-team">
+          <div className="container">
+            <div className="row">
+              <div className="col-12">
                 <h2>The Medical Team</h2>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-3">
-                <div class="medical-team-wrap">
+              <div className="col-12 col-md-6 col-lg-3">
+                <div className="medical-team-wrap">
                   <img src={Team1} alt="" />
 
                   <h4>Christinne Smith</h4>
@@ -25,8 +25,8 @@ class Team extends Component {
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
-                <div class="medical-team-wrap">
+              <div className="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
+                <div className="medical-team-wrap">
                   <img src={Team2} alt="" />
 
                   <h4>Anna Gustav</h4>
@@ -34,8 +34,8 @@ class Team extends Component {
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
-                <div class="medical-team-wrap">
+              <div className="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
+                <div className="medical-team-wrap">
                   <img src={Team3} alt="" />
 
                   <h4>Phillip Williams</h4>
@@ -43,8 +43,8 @@ class Team extends Component {
                 </div>
               </div>
 
-              <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
-                <div class="medical-team-wrap">
+              <div className="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
+                <div className="medical-team-wrap">
                   <img src={Team4} alt="" />
 
                   <h4>Gina James</h4>

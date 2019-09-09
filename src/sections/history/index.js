@@ -5,10 +5,10 @@ import About from '../../images/about.jpg';
 class History extends Component {
   render() {
     return (
-      <div class="med-history">
-        <div class="container">
-          <div class="row align-items-end">
-            <div class="col-12 col-lg-6">
+      <div className="med-history">
+        <div className="container">
+          <div className="row align-items-end">
+            <div className="col-12 col-lg-6">
               <h2>MedArt History</h2>
 
               <p>
@@ -24,13 +24,13 @@ class History extends Component {
                 luctus tortor at, ornare erat.{' '}
               </p>
 
-              <a class="d-inline-block button gradient-bg" href="#">
+              <a className="d-inline-block button gradient-bg" href="#">
                 Read More
               </a>
             </div>
 
-            <div class="col-12 col-lg-6 mt-5 mt-lg-0">
-              <img class="responsive" src={About} alt="" />
+            <div className="col-12 col-lg-6 mt-5 mt-lg-0">
+              <img className="responsive" src={About} alt="" />
             </div>
           </div>
         </div>

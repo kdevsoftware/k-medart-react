@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 class Services extends Component {
   render() {
     return (
-      <div class="quality-services">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
+      <div className="quality-services">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
               <h2>Only Top Quality Services</h2>
 
-              <div class="row">
-                <div class="col-12 col-md-6">
+              <div className="row">
+                <div className="col-12 col-md-6">
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Donec malesuada lorem ma ximus mauris scelerisque, at rutrum
@@ -21,7 +21,7 @@ class Services extends Component {
                   </p>
                 </div>
 
-                <div class="col-12 col-md-6">
+                <div className="col-12 col-md-6">
                   <p>
                     Amet, consectetur adipiscing elit. Donec malesuada lorem
                     maximus mauris scelerisque, at rutrum nulla dictum. Ut ac
@@ -33,8 +33,8 @@ class Services extends Component {
                 </div>
               </div>
 
-              <div class="w-100 text-center mt-5">
-                <a class="button gradient-bg" href="#">
+              <div className="w-100 text-center mt-5">
+                <a className="button gradient-bg" href="#">
                   Read More
                 </a>
               </div>

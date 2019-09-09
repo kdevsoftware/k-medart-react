@@ -4,10 +4,10 @@ class Map extends Component {
   render() {
     return (
       <div>
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="contact-page-map">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="contact-page-map">
                 <iframe
                   id="gmap_canvas"
                   src="https://maps.google.com/maps?q=university of san francisco&t=&z=15&ie=UTF8&iwloc=&output=embed"
