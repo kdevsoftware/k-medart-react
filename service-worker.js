@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/k-medart-react/precache-manifest.e3b7d69650f41ad3cd75d5a3af9e6ee0.js"
+  "/k-medart-react/precache-manifest.cde8d3b4014d1cd16fa1a4fafeef973d.js"
 );
 
 self.addEventListener('message', (event) => {

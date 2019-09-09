@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed37cc3a0667bfe9a64afe0a38796156",
+    "revision": "303c17161b3d6a40899b14e0a30e1ee8",
     "url": "/k-medart-react/index.html"
   },
   {
-    "revision": "7c79c263bad4947f52d0",
+    "revision": "a7de90b6769a3106585b",
     "url": "/k-medart-react/static/css/2.5ff4851e.chunk.css"
   },
   {
-    "revision": "36af590a738b84a83198",
+    "revision": "fa03f6c3416baf6b16b3",
     "url": "/k-medart-react/static/css/main.9222195a.chunk.css"
   },
   {
-    "revision": "7c79c263bad4947f52d0",
-    "url": "/k-medart-react/static/js/2.014db04b.chunk.js"
+    "revision": "a7de90b6769a3106585b",
+    "url": "/k-medart-react/static/js/2.f9ba625c.chunk.js"
   },
   {
-    "revision": "36af590a738b84a83198",
-    "url": "/k-medart-react/static/js/main.67d5af2a.chunk.js"
+    "revision": "fa03f6c3416baf6b16b3",
+    "url": "/k-medart-react/static/js/main.f2c197ab.chunk.js"
   },
   {
     "revision": "34e3791951f04222cc1a",
