@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/k-medart-react/static/css/main.9222195a.chunk.css",
+    "main.js": "/k-medart-react/static/js/main.67d5af2a.chunk.js",
+    "main.js.map": "/k-medart-react/static/js/main.67d5af2a.chunk.js.map",
+    "runtime~main.js": "/k-medart-react/static/js/runtime~main.51f956e0.js",
+    "runtime~main.js.map": "/k-medart-react/static/js/runtime~main.51f956e0.js.map",
+    "static/css/2.5ff4851e.chunk.css": "/k-medart-react/static/css/2.5ff4851e.chunk.css",
+    "static/js/2.014db04b.chunk.js": "/k-medart-react/static/js/2.014db04b.chunk.js",
+    "static/js/2.014db04b.chunk.js.map": "/k-medart-react/static/js/2.014db04b.chunk.js.map",
+    "index.html": "/k-medart-react/index.html",
+    "precache-manifest.e3b7d69650f41ad3cd75d5a3af9e6ee0.js": "/k-medart-react/precache-manifest.e3b7d69650f41ad3cd75d5a3af9e6ee0.js",
+    "service-worker.js": "/k-medart-react/service-worker.js",
+    "static/css/2.5ff4851e.chunk.css.map": "/k-medart-react/static/css/2.5ff4851e.chunk.css.map",
+    "static/css/main.9222195a.chunk.css.map": "/k-medart-react/static/css/main.9222195a.chunk.css.map",
+    "static/media/about.jpg": "/k-medart-react/static/media/about.108675e8.jpg",
+    "static/media/index.css": "/k-medart-react/static/media/testimonial-content-bg.d696d405.png",
+    "static/media/style.css": "/k-medart-react/static/media/hero.ec6a4446.jpg",
+    "static/media/news-1.png": "/k-medart-react/static/media/news-1.e271e7b0.png",
+    "static/media/news-2.png": "/k-medart-react/static/media/news-2.678b1669.png",
+    "static/media/news-3.png": "/k-medart-react/static/media/news-3.26bebb9a.png",
+    "static/media/news-4.png": "/k-medart-react/static/media/news-4.8fa68a49.png",
+    "static/media/news-5.png": "/k-medart-react/static/media/news-5.ad547375.png",
+    "static/media/news-6.png": "/k-medart-react/static/media/news-6.9c90475d.png",
+    "static/media/service-tab-img.png": "/k-medart-react/static/media/service-tab-img.3f27345f.png",
+    "static/media/team-1.jpg": "/k-medart-react/static/media/team-1.1cb93306.jpg",
+    "static/media/team-2.jpg": "/k-medart-react/static/media/team-2.5a87c75d.jpg",
+    "static/media/team-3.jpg": "/k-medart-react/static/media/team-3.792e7e2c.jpg",
+    "static/media/team-4.jpg": "/k-medart-react/static/media/team-4.e11669a2.jpg"
+  }
+}
