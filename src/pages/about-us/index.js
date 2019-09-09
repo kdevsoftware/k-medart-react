@@ -1,9 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
-class AboutUs extends Component {
+import History from '../../sections/history';
+import Faq from '../../sections/faq';
+import Team from '../../sections/team';
+
+class AboutUsPage extends Component {
   render() {
-    return <div>About Us works!</div>;
+    return (
+      <Fragment>
+        <History />
+        <Faq />
+        <Team />
+      </Fragment>
+    );
   }
 }
 
-export default AboutUs;
+export default AboutUsPage;

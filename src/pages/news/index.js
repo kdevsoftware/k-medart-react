@@ -1,9 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
-class News extends Component {
+import NewsItems from '../../sections/news-items';
+
+class NewsPage extends Component {
   render() {
-    return <div>News works!</div>;
+    return (
+      <Fragment>
+        <NewsItems />
+      </Fragment>
+    );
   }
 }
 
-export default News;
+export default NewsPage;

@@ -1,9 +1,21 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
-class Home extends Component {
+import Boxes from '../../sections/boxes';
+import Departments from '../../sections/departments';
+import Testimonials from '../../sections/testimonials';
+import RecentNews from '../../sections/recent-news';
+
+class HomePage extends Component {
   render() {
-    return <div>Home works!</div>;
+    return (
+      <Fragment>
+        <Boxes />
+        <Departments />
+        <Testimonials />
+        <RecentNews />
+      </Fragment>
+    );
   }
 }
 
-export default Home;
+export default HomePage;

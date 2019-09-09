@@ -1,9 +1,19 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 
-class Contact extends Component {
+import Boxes from '../../sections/boxes';
+import Contact from '../../sections/contact';
+import Map from '../../sections/map';
+
+class ContactPage extends Component {
   render() {
-    return <div>Contact works!</div>;
+    return (
+      <Fragment>
+        <Boxes />
+        <Contact />
+        <Map />
+      </Fragment>
+    );
   }
 }
 
-export default Contact;
+export default ContactPage;
