@@ -1,6 +1,7 @@
 {
   "name": "k-medart-react",
   "version": "0.1.0",
+  "homepage": "https://kdevsoftware.github.io/k-medart-react",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
